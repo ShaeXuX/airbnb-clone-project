@@ -139,3 +139,54 @@ This breakdown ensures a seamless experience for both guests and hosts while mai
 
 
 
+## API Security
+Ensuring the security of backend APIs is crucial for protecting user data, securing transactions, and preventing unauthorized access. Below are the key security measures implemented in this project:
+
+### 1. Authentication
+- Uses **JWT (JSON Web Tokens)** for verifying user identity.
+- Ensures only registered users can access protected endpoints.
+- Prevents unauthorized users from interacting with sensitive data.
+
+🔒 **Why it matters?** Protects user accounts from unauthorized access and ensures secure login sessions.
+
+### 2. Authorization
+- Implements **Role-Based Access Control (RBAC)** to restrict permissions.
+- Ensures that users (guest, host, admin) can only perform allowed actions.
+- Prevents unauthorized modifications to critical resources.
+
+🔒 **Why it matters?** Limits access to sensitive operations, such as payment processing and property management.
+
+### 3. Rate Limiting
+- Uses **API rate limiting** to prevent excessive requests from a single source.
+- Protects against **DDoS (Distributed Denial of Service) attacks**.
+- Ensures fair usage of server resources and prevents abuse.
+
+🔒 **Why it matters?** Prevents system overload, ensuring stable and reliable API performance.
+
+### 4. Data Encryption
+- Encrypts **sensitive data** like passwords and payment details using **AES-256**.
+- Ensures secure transmission via **HTTPS/TLS**.
+- Protects stored data using **hashing techniques**.
+
+🔒 **Why it matters?** Safeguards user privacy and ensures confidential information remains protected.
+
+### 5. Input Validation and Sanitization
+- Filters **user inputs** to prevent SQL injection and cross-site scripting (XSS).
+- Uses **parameterized queries** for database interactions.
+- Validates data formats before processing requests.
+
+🔒 **Why it matters?** Prevents malicious attacks aimed at corrupting or stealing data.
+
+### 6. Secure API Endpoints
+- Uses **OAuth 2.0** for third-party API integrations.
+- Implements **CORS (Cross-Origin Resource Sharing)** to manage requests from external domains.
+- Logs and monitors API requests for security auditing.
+
+🔒 **Why it matters?** Ensures only trusted entities interact with API endpoints while tracking suspicious activity.
+
+---
+By integrating these security measures, the system ensures the integrity, confidentiality, and availability of all API services. Continuous monitoring and updates help mitigate evolving security threats.
+
+
+
+
