@@ -39,3 +39,54 @@ CI/CD Pipelines: Automated pipelines for testing and deploying code changes.
 | **DevOps Engineer**  | Facilitates collaboration between development and operations, automating deployment and integration. |
 
 
+
+## Database Design
+
+This section outlines the key entities and relationships that define the database structure for our Airbnb clone.
+
+### Entities and Their Key Fields
+
+#### 1. Users
+- `id` (Primary Key) – Unique identifier for each user.
+- `name` – Full name of the user.
+- `email` – Email address used for login and communication.
+- `password_hash` – Hashed password for security.
+- `role` – Defines whether the user is a guest or a host.
+
+#### 2. Properties
+- `id` (Primary Key) – Unique identifier for each property.
+- `user_id` (Foreign Key) – Links to the owner (host).
+- `title` – Name or short description of the property.
+- `location` – Address or coordinates of the property.
+- `price_per_night` – Cost per night for booking.
+
+#### 3. Bookings
+- `id` (Primary Key) – Unique identifier for each booking.
+- `user_id` (Foreign Key) – Guest who made the booking.
+- `property_id` (Foreign Key) – Property being booked.
+- `check_in_date` – Start date of the booking.
+- `check_out_date` – End date of the booking.
+
+#### 4. Reviews
+- `id` (Primary Key) – Unique identifier for each review.
+- `user_id` (Foreign Key) – Guest who wrote the review.
+- `property_id` (Foreign Key) – Property being reviewed.
+- `rating` – Score given (e.g., 1 to 5 stars).
+- `comment` – Text feedback from the user.
+
+#### 5. Payments
+- `id` (Primary Key) – Unique identifier for each transaction.
+- `user_id` (Foreign Key) – Guest making the payment.
+- `booking_id` (Foreign Key) – The booking being paid for.
+- `amount` – Total amount paid.
+- `payment_status` – Status of the payment (e.g., pending, completed, refunded).
+
+### Entity Relationships
+- A **User** can own multiple **Properties** (hosts).
+- A **User** can book multiple **Properties**, but each **Booking** belongs to one **Property**.
+- Each **Booking** is associated with a **Payment**.
+- **Users** can leave multiple **Reviews**, but each **Review** belongs to one **Property**.
+
+This database structure ensures efficient management of user interactions, property listings, and bookings while maintaining data integrity.
+
+
