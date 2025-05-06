@@ -34,9 +34,11 @@ CI/CD Pipelines: Automated pipelines for testing and deploying code changes.
 | **UI/UX Designer**  | Creates intuitive and engaging user interfaces, ensuring a seamless user experience. |
 | **Software Architect**  | Designs high-level architecture, selects tools, and establishes code quality standards. |
 | **Software Developer**  | Codes and stabilizes the product, working on both front-end and back-end functionality. |
-| **Quality Assurance (QA) Engineer**  | Tests software functionality, usability, security, and performance to ensure quality. |
+| **Quality Assurance (QA) Engineer / Testers**  | Tests software functionality, usability, security, and performance to ensure quality. |
 | **Test Automation Engineer**  | Develops automated test scripts to streamline software testing processes. |
 | **DevOps Engineer**  | Facilitates collaboration between development and operations, automating deployment and integration. |
+| **Scrum Master** | Facilitates Agile processes, organizes sprints, and removes |
+
 
 
 
