@@ -244,9 +244,34 @@ Creating an intuitive and visually appealing user interface is essential for del
 ### Importance of User-Friendly Design in a Booking System
 A well-designed UI/UX enhances the user experience by making booking fast, intuitive, and enjoyable. A clutter-free interface ensures that guests can find properties effortlessly, hosts can manage listings with ease, and payments can be completed securely. Simplifying workflows reduces drop-off rates and builds trust, ultimately driving higher engagement and satisfaction.
 
----
 
-Would you like to refine any sections or add more details, such as color schemes or design inspirations? 🚀
+### Figma Environment
+________________________
+
+### Color Styles
+Below are the primary color styles used in the design:
+
+- **Primary Color:** `#HexCode` – Used for main buttons and key UI elements.
+- **Secondary Color:** `#HexCode` – Supports accent elements and contrasts with primary colors.
+- **Background Color:** `#HexCode` – Defines the page’s base layout.
+- **Text Color:** `#HexCode` – Ensures readability and visual consistency.
+- **Hover/Active States:** `#HexCode` – Provides interactive feedback.
+
+### Typography
+The font choices and text styling help enhance readability and user experience:
+
+- **Font Family:** `"Font Name"` – The primary typeface for headings and body text.
+- **Font Weight:**
+  - Light (`300`) – Used for subtle text elements.
+  - Regular (`400`) – Default for body text and descriptions.
+  - Bold (`700`) – Highlights headings and important UI labels.
+- **Font Size:**
+  - `16px` – Standard body text size.
+  - `24px` – Subheadings for section clarity.
+  - `32px+` – Headings for visual hierarchy.
+
+### Importance of Identifying Design Properties in a Mockup
+Defining key design properties ensures consistency and enhances usability across the platform. Proper color contrast improves accessibility, structured typography enhances readability, and uniform design elements make the interface intuitive. Identifying these aspects in the mockup phase allows teams to maintain brand identity and refine user interaction before implementation.
 
 
 
