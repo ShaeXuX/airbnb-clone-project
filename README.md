@@ -23,7 +23,7 @@ Redis: Used for caching and session management.
 Docker: Containerization tool for consistent development and deployment environments.
 CI/CD Pipelines: Automated pipelines for testing and deploying code changes.
 
-
+## Project Roles and Responsibilities 
 ## Team Roles
 
 | Role                  | Responsibilities |
