@@ -277,5 +277,42 @@ Defining key design properties ensures consistency and enhances usability across
 
 
 
+## UI Component Patterns
+This section outlines the core UI components that define the visual and interactive experience of the Airbnb clone project. These reusable components ensure consistency, scalability, and an intuitive user interface.
+
+### 1. Navbar
+- **Purpose:** Provides site-wide navigation for users.
+- **Features:** Includes links to Home, Listings, Bookings, Profile, and Search bar.
+- **Behavior:** Sticky or responsive design, ensuring easy access on all devices.
+
+### 2. Property Card
+- **Purpose:** Displays key details for each property in a listing view.
+- **Features:** Showcases an image, title, location, rating, price, and availability status.
+- **Behavior:** Clickable to navigate to the detailed property view.
+
+### 3. Footer
+- **Purpose:** Provides essential links and information at the bottom of the page.
+- **Features:** Includes contact details, social media links, privacy policies, and FAQs.
+- **Behavior:** Responsive design that adapts to different screen sizes.
+
+### 4. Booking Form
+- **Purpose:** Allows users to select dates and confirm bookings.
+- **Features:** Includes calendar date picker, price breakdown, and payment options.
+- **Behavior:** Dynamic validation ensures users input correct details before checkout.
+
+### 5. Review Card
+- **Purpose:** Displays user reviews for properties.
+- **Features:** Shows the reviewer’s name, rating, comment, and timestamp.
+- **Behavior:** Users can add a new review, edit existing reviews, and upvote helpful feedback.
+
+### 6. Search & Filter Panel
+- **Purpose:** Enables users to refine property searches.
+- **Features:** Includes filters for price, location, amenities, and property type.
+- **Behavior:** Dynamically updates the listing based on selected filters.
+
+These components ensure a seamless and engaging user experience, making booking and browsing properties intuitive. 
+
+
+
 
 
